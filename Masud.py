@@ -27,3 +27,9 @@ while True:
         time.sleep(9)  # Wait for 9 seconds
     except pyautogui.ImageNotFoundException:
         continue  # If no errors, proceed with the bot.
+    try:
+        tryAgain = pyautogui.locateOnScreen('TRYAGAIN.png', confidence=0.8)  # Check if there is an error.
+        pyautogui.click(tryAgain)  # If there is an error, click TRY AGAIN.
+        time.sleep(9)  # Wait for 9 seconds
+    except pyautogui.ImageNotFoundException:
+        continue  # If no errors, proceed with the bot.
