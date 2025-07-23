@@ -18,7 +18,7 @@ while True:
     pyautogui.click(1371, 1263)  # Surrender
     time.sleep(1)  # Wait for 1 second
     pyautogui.click(2044, 1190)  # Okay
-    time.sleep(1)  # Wait for 1 second
+    time.sleep(2)  # Wait for 2 second
     pyautogui.click(1906, 1336)  # Return Home!
     time.sleep(4)  # Wait for 4 seconds
     try:
