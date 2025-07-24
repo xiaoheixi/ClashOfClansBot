@@ -11,9 +11,18 @@ while True:
     pyautogui.click(1408, 1359)  # Dragon!
     for i in range(16): 
         pyautogui.click(2403, 1063)  # Deploy Dragons at right corner!
-    # pyautogui.click(1619, 1363)  # Queen!
-    # pyautogui.click(2403, 1063)  # Deploy Queen at right corner!
-    # pyautogui.click(1619, 1363)  # Activate Queen ability!
+    pyautogui.click(1619, 1363)  # Hero 1 Selection!
+    pyautogui.click(2403, 1063)  # Deploy Hero 1 at right corner!
+    pyautogui.click(1714, 1365)  # Hero 2 Selection!
+    pyautogui.click(2403, 1063)  # Deploy Hero 2 at right corner!
+    pyautogui.click(1796, 1357)  # Hero 3 Selection!
+    pyautogui.click(2403, 1063)  # Deploy Hero 3 at right corner!
+    pyautogui.click(1896, 1363)  # Hero 4 Selection!
+    pyautogui.click(2403, 1063)  # Deploy Hero 4 at right corner!
+    pyautogui.click(1619, 1363)  # Activate Hero 1 ability!
+    pyautogui.click(1714, 1365)  # Activate Hero 2 ability!
+    pyautogui.click(1796, 1357)  # Activate Hero 3 ability!
+    pyautogui.click(1896, 1363)  # Activate Hero 4 ability!
     time.sleep(95)  # Wait for 95 seconds
     pyautogui.click(1371, 1263)  # Surrender
     time.sleep(1)  # Wait for 1 second
