@@ -9,7 +9,7 @@ while True:
     for i in range(5):
         pyautogui.keyDown('down') # Zoom out
     pyautogui.click(1408, 1359)  # Dragon!
-    for i in range(16): 
+    for i in range(17): 
         pyautogui.click(2403, 1063)  # Deploy Dragons at right corner!
     pyautogui.click(1619, 1363)  # Hero 1 Selection!
     pyautogui.click(2403, 1063)  # Deploy Hero 1 at right corner!
