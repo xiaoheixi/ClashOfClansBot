@@ -29,7 +29,7 @@ while True:
     pyautogui.click(2044, 1190)  # Okay
     time.sleep(2)  # Wait for 2 second
     pyautogui.click(1906, 1336)  # Return Home!
-    time.sleep(4)  # Wait for 4 seconds
+    time.sleep(5)  # Wait for 5 seconds
     try:
         reloadGame = pyautogui.locateOnScreen('RELOADGAME.png', confidence=0.8)  # Check if there is an error.
         pyautogui.click(reloadGame)  # If there is an error, click RELOAD GAME.
