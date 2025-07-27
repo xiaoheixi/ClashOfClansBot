@@ -24,7 +24,7 @@ while True:
     pyautogui.click(1714, 1365)  # Activate Hero 2 ability!
     pyautogui.click(1796, 1357)  # Activate Hero 3 ability!
     pyautogui.click(1896, 1363)  # Activate Hero 4 ability!
-    time.sleep(95)  # Wait for 90 seconds
+    time.sleep(87)  # Wait for 87 seconds
     pyautogui.click(1371, 1263)  # Surrender
     time.sleep(1)  # Wait for 1 second
     pyautogui.click(2044, 1190)  # Okay
