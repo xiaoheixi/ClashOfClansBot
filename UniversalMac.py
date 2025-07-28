@@ -1,9 +1,10 @@
 import time
 import pyautogui
 
-pyautogui.click(1031, 1547)  # Switch to BlueStacks!
+pyautogui.click(1260, 1560)  # Switch to BlueStacks!
+print("Bluestaacks is now selected.")
 while True:
-    pyautogui.click(1031, 1547)  # Attack!
+    pyautogui.click(1260, 1560)  # Attack!
     time.sleep(1)  # Wait for 1 second
     pyautogui.click(2085, 1278)  # Find a Match
     time.sleep(5)  # Wait for 5 second
