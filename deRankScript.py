@@ -8,6 +8,7 @@ while True:
     time.sleep(5)  # Wait for 5 second
     for i in range(5):
         pyautogui.keyDown('down') # Zoom out
+    pyautogui.keyUp('down')  # Release the down key
     pyautogui.click(1619, 1363)  # Hero 1 Selection!
     pyautogui.click(2403, 1063)  # Deploy Hero 1 at right corner!
     pyautogui.click(1714, 1365)  # Hero 2 Selection!
@@ -27,15 +28,5 @@ while True:
     time.sleep(2)  # Wait for 2 second
     pyautogui.click(1906, 1336)  # Return Home!
     time.sleep(5)  # Wait for 5 seconds
-    try:
-        reloadGame = pyautogui.locateOnScreen('RELOADGAME.png', confidence=0.8)  # Check if there is an error.
-        pyautogui.click(reloadGame)  # If there is an error, click RELOAD GAME.
-        time.sleep(9)  # Wait for 9 seconds
-    except pyautogui.ImageNotFoundException:
-        continue  # If no errors, proceed with the bot.
-    try:
-        tryAgain = pyautogui.locateOnScreen('TRYAGAIN.png', confidence=0.8)  # Check if there is an error.
-        pyautogui.click(tryAgain)  # If there is an error, click TRY AGAIN.
-        time.sleep(9)  # Wait for 9 seconds
-    except pyautogui.ImageNotFoundException:
-        continue  # If no errors, proceed with the bot.
+    pyautogui.click(1652, 1152)  # Address Errors!
+    time.sleep(9)  # Wait for 9 seconds
