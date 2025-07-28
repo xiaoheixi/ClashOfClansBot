@@ -31,3 +31,5 @@ while True:
     time.sleep(2)  # Wait for 2 second
     pyautogui.click(1719, 1531)  # Return Home!
     time.sleep(5)  # Wait for 5 seconds
+    pyautogui.click(1652, 1152)  # Address Errors!
+    time.sleep(9)  # Wait for 9 seconds
