@@ -6,7 +6,7 @@ print("Bluestaacks is now selected.")
 while True:
     pyautogui.click(1260, 1560)  # Attack!
     time.sleep(1)  # Wait for 1 second
-    pyautogui.click(2085, 1278)  # Find a Match
+    pyautogui.click(2153, 1371)  # Find a Match
     time.sleep(5)  # Wait for 5 second
     for i in range(5):
         pyautogui.keyDown('down') # Zoom out
