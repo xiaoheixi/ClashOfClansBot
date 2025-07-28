@@ -1,6 +1,7 @@
 import time
 import pyautogui
 
+pyautogui.click(1031, 1547)  # Switch to BlueStacks!
 while True:
     pyautogui.click(1031, 1547)  # Attack!
     time.sleep(1)  # Wait for 1 second
