@@ -4,6 +4,8 @@ import pyautogui
 pyautogui.click(1260, 1560)  # Switch to BlueStacks!
 print("Bluestaacks is now selected.")
 while True:
+    pyautogui.click(2301, 1004)  # Close Pop Ups!
+    time.sleep(1)  # Wait for 1 second
     pyautogui.click(1260, 1560)  # Attack!
     time.sleep(1)  # Wait for 1 second
     pyautogui.click(2153, 1371)  # Find a Match
