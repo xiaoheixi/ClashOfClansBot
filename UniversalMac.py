@@ -2,7 +2,7 @@ import time
 import pyautogui
 
 pyautogui.click(1260, 1560)  # Switch to BlueStacks!
-print("Bluestaacks is now selected.")
+print("Bluestacks is now selected.")
 while True:
     pyautogui.click(2301, 1004)  # Close Pop Ups!
     time.sleep(1)  # Wait for 1 second
