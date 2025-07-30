@@ -2,6 +2,8 @@ import time
 import pyautogui
 
 while True:
+    pyautogui.click(2468, 791)  # Close Prompts!
+    time.sleep(1)  # Wait for 1 second
     pyautogui.click(1368, 1349)  # Attack!
     time.sleep(1)  # Wait for 1 second
     pyautogui.click(2175, 1134)  # Find a Match
@@ -32,4 +34,6 @@ while True:
     pyautogui.click(1906, 1336)  # Return Home!
     time.sleep(5)  # Wait for 5 seconds
     pyautogui.click(1652, 1152)  # Address Errors!
+    time.sleep(9)  # Wait for 9 seconds
+    pyautogui.click(1903, 1347)  # Address Errors!
     time.sleep(9)  # Wait for 9 seconds
